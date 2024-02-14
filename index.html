@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors</title>
+    <script defer src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>SCOREBOARD</h1>
+        <div class="scoreBox">
+            <div class="minibox">
+                <h2>You</h2>
+                <div id="scoreYou">0</div>
+            </div>
+            <div class="minibox">
+                <span>VS</span>
+            </div>
+            <div class="minibox">
+                <h2>Computer</h2>
+                <div id="scoreComputer">0</div>
+            </div>
+        </div>
+        <div class="choose">
+            <img class="tool" id="stone" src="assets/stone.png" alt="#stone">
+            <img class="tool" id="paper" src="assets/paper.png" alt="#paper">
+            <img class="tool" id="scissors" src="assets/scissors.png" alt="#scissors">
+        </div>
+        <div class="whichChoose">
+            <div>
+                <h2>Choose:</h2>
+                <img id="imgQuestionChoose" src="assets/question.png" alt="">
+            </div>
+            <div>
+                <h2>Computer:</h2>
+                <img id="imgQuestionComputer" src="assets/question.png" alt="">
+            </div>
+        </div>
+        <div id="result">
+            Result...
+        </div>
+    </div>
+</body>
+
+</html>

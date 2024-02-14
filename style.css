@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #667db6;
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    font-family: 'Goldman', cursive;
+    color: maroon;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+img:hover {
+    transform: scale(2);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.scoreBox {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid maroon;
+    color: #fff;
+    padding: 20px;
+}
+
+.minibox {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.minibox h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.minibox div {
+    background-color: #fff;
+    color: #000;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+.minibox span {
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+
+.choose {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+.whichChoose {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.whichChoose div h2 {
+    margin-bottom: 10px;
+}
+
+#result {
+    border: 2px solid maroon;
+    width: 50%;
+    margin-top: 30px;
+    word-wrap: break-word;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 480px) {}
