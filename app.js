@@ -76,6 +76,7 @@ function getScore() {
 
 function theEndGame() {
     if (scoreComputer.textContent == 3 || scoreYou.textContent == 3) {
+        images.forEach(img => img.removeEventListener("click", toolClicked));
         setTimeout(() => {
             scoreComputer.textContent = 0;
             scoreYou.textContent = 0;
