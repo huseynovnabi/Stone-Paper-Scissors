@@ -83,6 +83,7 @@ function theEndGame() {
             imgQuestionComputer.setAttribute("src", "assets/question.png");
             imgQuestionChoose.setAttribute("src", "assets/question.png");
             result.textContent = "Result...";
+            images.forEach(tool => tool.addEventListener("click", toolClicked));
         }, 2000);
     }
 }
